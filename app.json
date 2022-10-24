@@ -11,6 +11,11 @@
     "navigationBarTitleText": "彪哥教育",
     "navigationBarTextStyle":"white"
   },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "尝试获取你的位置信息"
+    }
+  },
   "tabBar": {
     "list": [{
       "pagePath": "pages/qweather/index",

@@ -1,2 +1,9 @@
 <!--pages/qweather/index.wxml-->
-<text>pages/qweather/index.wxml</text>
+<map 
+  longitude="{{ longitude }}" 
+  latitude="{{ latitude }}"
+  markers="{{ markers }}" 
+  scale="14" 
+  style="width: 100%; height: 160px;" 
+  name="">
+</map>
