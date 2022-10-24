@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/qweather/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00B38A",
+    "navigationBarTitleText": "彪哥教育",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/qweather/index",
+      "iconPath": "static/images/star.png",
+      "selectedIconPath": "static/images/star-active.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/test/test",
+      "iconPath": "static/images/search.png",
+      "selectedIconPath": "static/images/search-active.png",
+      "text": "测试"
+    }, {
+      "pagePath": "pages/index/index",
+      "iconPath": "static/images/person.png",
+      "selectedIconPath": "static/images/person-active.png",
+      "text": "用户"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
