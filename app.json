@@ -3,7 +3,8 @@
     "pages/qweather/index",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/test/test"
+    "pages/test/test",
+    "pages/test/camera"
   ],
   "window":{
     "backgroundTextStyle":"light",

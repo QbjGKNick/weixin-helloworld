@@ -1,2 +1,8 @@
 <!--pages/test/test.wxml-->
 <text bindtap="goIndex">跳转到 Index</text>
+
+<button type="primary" bindtap="goCamera" style="width: 100%;">去拍照</button>
+
+<!-- 引入页脚 -->
+<import src="../../tpl/footer.wxml"></import>
+<template is="my-footer"></template>

@@ -10,7 +10,8 @@ Page({
   data: {
     longitude: null,
     latitude: null,
-    markers: []
+    markers: [],
+    threedays: []
   },
 
   /**
@@ -43,15 +44,23 @@ Page({
             }
           }]
         })
-        const location = `${latitude},${longitude}`
+        const location = `${longitude},${latitude}`
+        console.log(location);
         let data = {
           location
         }
         api.threedays(data).then(res => {
-          if (res.code === 200) {
+          console.log(res)
+          if (res.code === "200") {
             // 成功
+            self.setData({
+              threedays: res.daily
+            })
           } else {
             // 失败
+            wx.showToast({
+              title: "正在获取天气数据"
+            })
           }
         })
       }
