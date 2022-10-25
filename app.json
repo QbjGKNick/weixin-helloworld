@@ -17,6 +17,9 @@
       "desc": "尝试获取你的位置信息"
     }
   },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
   "tabBar": {
     "list": [{
       "pagePath": "pages/qweather/index",
